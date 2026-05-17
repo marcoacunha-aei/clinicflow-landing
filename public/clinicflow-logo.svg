@@ -1,0 +1,64 @@
+<svg width="280" height="50" viewBox="0 0 280 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#062A67"/>
+      <stop offset="48%" stop-color="#0078D7"/>
+      <stop offset="100%" stop-color="#22C7F5"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="60" y1="25" x2="200" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#061D4F"/>
+      <stop offset="55%" stop-color="#006FD1"/>
+      <stop offset="100%" stop-color="#17BFF1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(2 2)">
+    <!-- C shape -->
+    <path d="M23 4
+             C12 4 4 12 4 23
+             C4 34 12 42 23 42
+             C28 42 33 40 36 36"
+          stroke="url(#blueGrad)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    
+    <!-- Medical cross -->
+    <path d="M19 15
+             H27
+             C28 15 29 16 29 17
+             V21
+             H33
+             C34 21 35 22 35 23
+             V27
+             C35 28 34 29 33 29
+             H29
+             V33
+             C29 34 28 35 27 35
+             H19
+             C18 35 17 34 17 33
+             V29
+             H13
+             C12 29 11 28 11 27
+             V23
+             C11 22 12 21 13 21
+             H17
+             V17
+             C17 16 18 15 19 15Z"
+          fill="url(#blueGrad)"/>
+  </g>
+
+  <!-- Text -->
+  <text x="55" y="33"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-size="24"
+        font-weight="700"
+        font-style="italic"
+        letter-spacing="-0.5"
+        fill="url(#textGrad)">Clinic</text>
+  <text x="127" y="33"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-size="24"
+        font-weight="700"
+        font-style="italic"
+        letter-spacing="-0.5"
+        fill="#16B9ED">Flow</text>
+</svg>
