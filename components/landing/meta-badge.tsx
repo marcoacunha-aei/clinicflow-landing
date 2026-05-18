@@ -6,7 +6,7 @@ export function MetaBadge({ className = "" }: { className?: string }) {
       <img
         src="/meta-business-partner.png"
         alt="Meta Business Partner"
-        className="h-8 w-auto"
+        className="h-10 w-auto"
       />
     </div>
   )
