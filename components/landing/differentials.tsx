@@ -10,40 +10,40 @@ import {
 const differentials = [
   {
     icon: HeartPulse,
-    title: "Feita pra area da saude",
-    description: "IA treinada com linguagem medica. Entende procedimentos, planos e jargoes do setor."
+    title: "Feita para a área da saúde",
+    description: "IA treinada com linguagem médica. Entende procedimentos, planos e jargões do setor."
   },
   {
     icon: Zap,
     title: "Roda em minutos",
-    description: "Sem projeto de meses. Configure hoje e comece a usar amanha."
+    description: "Sem projeto de meses. Configure hoje e comece a usar amanhã."
   },
   {
     icon: Shield,
     title: "Blindada pela LGPD",
-    description: "Criptografia de ponta, servidores no Brasil, conformidade total com a lei."
+    description: "Criptografia de ponta, servidores no Brasil e conformidade com a lei."
   },
   {
     icon: Puzzle,
-    title: "API Oficial Meta",
-    description: "Somos Meta Business Partner. WhatsApp e Instagram com API oficial, sem risco de bloqueio."
+    title: "Meta Business Partner",
+    description: "WhatsApp API Oficial + Instagram para sua clínica operar com mais segurança, estabilidade e credibilidade."
   },
   {
     icon: TrendingUp,
-    title: "Voce ve os numeros",
-    description: "Dashboard com metricas de conversao, tempo de resposta e performance da IA."
+    title: "Você vê os números",
+    description: "Dashboard com métricas de conversão, tempo de resposta e performance da IA."
   },
   {
     icon: Clock,
     title: "Suporte de verdade",
-    description: "Time brasileiro que atende rapido. Nada de chatbot de suporte ou espera de dias."
+    description: "Time brasileiro que atende rápido. Nada de chatbot de suporte ou espera de dias."
   }
 ]
 
 const stats = [
   { value: "3x", label: "mais agendamentos" },
   { value: "80%", label: "menos faltas" },
-  { value: "24h", label: "atendimento continuo" },
+  { value: "24h", label: "atendimento contínuo" },
 ]
 
 export function Differentials() {
@@ -55,10 +55,10 @@ export function Differentials() {
           <div className="lg:sticky lg:top-28">
             <p className="text-sm font-medium text-accent mb-3 uppercase tracking-wider">Por que a ClinicFlow</p>
             <h2 className="text-3xl lg:text-4xl font-semibold text-foreground mb-6 text-balance">
-              Nao e so mais uma ferramenta. E a unica que voce vai precisar.
+              Não é só mais uma ferramenta. É a única que você vai precisar.
             </h2>
             <p className="text-lg text-muted-foreground mb-10 text-pretty leading-relaxed">
-              Desenvolvida por quem entende de clinicas, testada por quem atende pacientes todo dia. 
+              Desenvolvida por quem entende de clínicas, testada por quem atende pacientes todos os dias.
               Tecnologia que funciona no mundo real.
             </p>
             
