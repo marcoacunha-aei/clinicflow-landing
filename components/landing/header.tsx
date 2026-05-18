@@ -35,14 +35,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <Image
-              src="/clinicflow-logo.png"
-              alt="ClinicFlow"
-              width={180}
-              height={120}
-              className="h-12 lg:h-14 w-auto"
-              priority
-            />
+           <Image
+  src="/clinicflow-logo.png"
+  alt="ClinicFlow"
+  width={300}
+  height={200}
+  className="h-20 lg:h-24 w-auto"
+  priority
+/>
           </a>
 
           {/* Desktop Navigation */}
