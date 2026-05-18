@@ -11,8 +11,7 @@ const footerLinks = {
   contato: [
     { label: "Agendar demonstração", href: "#demonstracao" },
     { label: "Suporte", href: "#" },
-    { label: "contato@clinicflow.com.br", href: "mailto:contato@clinicflow.com.br" },
-  ],
+     ],
   legal: [
     { label: "Termos de Uso", href: "#" },
     { label: "Política de Privacidade", href: "#" },
