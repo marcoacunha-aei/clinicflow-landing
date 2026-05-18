@@ -35,8 +35,8 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-pretty leading-relaxed">
-            A IA que atende, qualifica e agenda pacientes 24h por dia no WhatsApp e Instagram. 
-            API Oficial Meta para sua clinica operar com seguranca e credibilidade.
+            A IA que atende, qualifica e agenda pacientes 24h por dia no WhatsApp e Instagram.
+            API Oficial Meta para sua clínica operar com segurança e credibilidade.
           </p>
 
           {/* CTAs */}
@@ -58,7 +58,7 @@ export function Hero() {
               asChild
             >
               <a href="#demonstracao">
-                Agendar Demonstracao
+                Agendar Demonstração
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
@@ -68,7 +68,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Shield className="h-4 w-4 text-primary" />
-              <span>100% compativel com LGPD</span>
+              <span>100% compatível com LGPD</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="h-4 w-4 text-primary" />
